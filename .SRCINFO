@@ -1,7 +1,7 @@
 pkgbase = python-dm-tree
 	pkgdesc = A library for working with nested data structures
 	pkgver = 0.1.8
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/google-deepmind/tree
 	arch = any
 	groups = deepmind
@@ -14,6 +14,7 @@ pkgbase = python-dm-tree
 	makedepends = python-installer
 	makedepends = python-setuptools
 	makedepends = python-wheel
+	depends = abseil-cpp
 	depends = python
 	optdepends = python-wrapt: Prefered way for monkey patching
 	source = dm-tree-0.1.8.tar.gz::https://github.com/deepmind/tree/archive/refs/tags/0.1.8.tar.gz

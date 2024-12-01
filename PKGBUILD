@@ -2,13 +2,13 @@
 pkgname=python-dm-tree
 _pkgname=${pkgname#python-}
 pkgver=0.1.8
-pkgrel=4
+pkgrel=5
 pkgdesc="A library for working with nested data structures"
 arch=('any')
 url="https://github.com/google-deepmind/tree"
 license=('Apache')
 groups=('deepmind' 'jax')
-depends=('python')
+depends=('abseil-cpp' 'python')
 makedepends=('abseil-cpp' 'cmake' 'pybind11' 'python-build' 'python-installer'
              'python-setuptools' 'python-wheel')
 optdepends=('python-wrapt: Prefered way for monkey patching')
